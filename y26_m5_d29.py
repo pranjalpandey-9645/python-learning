@@ -6,12 +6,20 @@ A = [1, 2, 3, 4, 5]; #List
 # else: 
 #     print("Permission not granted!");
 
-found = False;
+# found = False;
 
+# for number in A:
+#     if number < 10:
+#         print(number);
+#         found = True;
+
+# if not found:
+#     print("Permission not granted!");
+
+found = True;
 for number in A:
-    if number < 1:
+    if number < 20:
         print(number);
-        found = True;
-
-if not found:
+        found = False;
+if found:
     print("Permission not granted!");

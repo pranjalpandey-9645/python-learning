@@ -1,4 +1,4 @@
-#concatenation
+#Concatenation
 # a = 4;
 # b = 23;
 # print("the sum of a and b is ", a+b);
@@ -10,7 +10,7 @@
 # print(strinG[0:5]);
 # print(strinG[6:11]);
 
-#conditional statements
+#Conditional statements
 # num = int(input("enter the number of processes in the system: "));
 # num = num*10;
 # print("the number of processes in the system is ", num);
