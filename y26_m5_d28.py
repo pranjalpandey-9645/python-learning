@@ -8,13 +8,13 @@ D = {
      'd': 4
      }; #dictionary
 
-# print(type(A))
-# print(type(B))
+print(type(A))
+print(type(B))
 
-# for i in range(1, 6, 1):
-#     print(i);
-# else: 
-#     print("the loop is completed");
+for i in range(1, 6, 1):
+    print(i);
+else: 
+    print("the loop is completed");
 
 
 #STRINGS

@@ -1,26 +1,26 @@
 #Concatenation
-# a = 4;
-# b = 23;
-# print("the sum of a and b is ", a+b);
+a = 4;
+b = 23;
+print("the sum of a and b is ", a+b);
 
-# print("the sum of {0} and {1} is {2}".format(a,b,a+b));
+print("the sum of {0} and {1} is {2}".format(a,b,a+b));
 
-# strinG = "hello world";
-# print(strinG[0]);
-# print(strinG[0:5]);
-# print(strinG[6:11]);
+strinG = "hello world";
+print(strinG[0]);
+print(strinG[0:5]);
+print(strinG[6:11]);
 
-#Conditional statements
-# num = int(input("enter the number of processes in the system: "));
-# num = num*10;
-# print("the number of processes in the system is ", num);
+# Conditional statements
+num = int(input("enter the number of processes in the system: "));
+num = num*10;
+print("the number of processes in the system is ", num);
 
-# if num > 100:
-#     print("the system is overloaded");
-# elif num == 100:
-#     print("the system is at full capacity");    
-# else:
-#     print("the system is underloaded");
+if num > 100:
+    print("the system is overloaded");
+elif num == 100:
+    print("the system is at full capacity");    
+else:
+    print("the system is underloaded");
 
 #Example of simple calculator
 num1 = int(input("enter the first nnumber: "));
