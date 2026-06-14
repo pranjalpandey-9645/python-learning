@@ -1,3 +1,4 @@
+# Aggregation 
 class Python:
     def __init__(self, pages):
         self.pages = pages
@@ -10,8 +11,6 @@ class Java:
         self.pages = pages
     
 obj = Python(320)
-
 obj2 = Java(345)
 
 print(obj + obj2)
-
